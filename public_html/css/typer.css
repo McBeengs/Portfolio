@@ -1,0 +1,43 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: "Inconsolata";
+}
+
+body
+{
+	background: black;
+	overflow: hidden;
+}
+
+section#intro
+{
+	padding-top: 180px;
+	padding-bottom: 180px;
+	width: 100%;
+}
+
+section#intro pre#textbox
+{
+	position: relative;
+	margin: -140px 0 0 32px;
+}
+
+div#cursor
+{
+	position: absolute;
+	background: white;
+	display: block;
+	opacity: 0;
+	padding: 10px 1px;
+	margin: -140px 0 0 30px;
+}
+
+p#text
+{
+	margin-left: 42px;
+	margin-top: -18px;
+	display: none;
+}

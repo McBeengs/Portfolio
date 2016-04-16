@@ -1,0 +1,73 @@
+section#content
+{
+	margin: 260px 5% 50px 4.7%;
+	width: 90%;
+	height: 1000px;
+	position: absolute;
+	background-color: rgba(73, 73, 73, 0.5);
+	border-radius: 25px;
+}
+
+section#content h1
+{
+	font-size: 56px;
+	margin: 25px 0 0 35px;
+}
+
+.project
+{
+	width: 96%;
+	height: 100px;
+	margin-left: 2%;
+	background: gray;
+	text-indent: 1.5em;
+}
+
+.fill
+{
+	width: 30%;
+	height: 100px;
+	background: orange;
+	float: right;
+	background-position: center;
+}
+
+.desc
+{
+	font-size: 20px;
+	text-align: justify;
+	max-width: 59%;
+	position: absolute;
+	margin: 38px 0 0 40px;
+}
+
+div#first
+{
+	margin-top: 70px;
+}
+
+div#second
+{
+	margin-top: 80px;
+}
+
+div#third
+{
+	margin-top: 80px;
+}
+
+footer
+{
+	width: 100%;
+	height: 160px;
+	background: black;
+	position: absolute;
+	margin-top: 1300px;
+}
+
+footer div#separator_bottom
+{
+	background: red;
+	width: 100%;
+	padding-top: 7px;
+}

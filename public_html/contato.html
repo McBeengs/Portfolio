@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Portfólio - Contato</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/contato.css">
+	<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+	<script src="script/jquery-1.11.3.js"></script>
+	<script src="script/contato.js"></script>
+</head>
+<body>
+	<section id="top">
+		<header>
+			<div id="cursor"></div>
+			<h1 id="name"></h1>
+			<h2 id="slogan"></h2>
+			<nav>
+				<ul>
+					<li><a href="home.html" id="first"></a></li>
+					<li><a href="projetos.html" id="second"></a></li>
+					<li><a href="contato.html" id="third"></a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="separator"></div>
+	</section>	
+	<script src="script/nav_animation.js"></script>
+	<section id="content">
+		<h1>Me contrate</h1>
+		<div id="form">
+			<form method="POST" name="feedback">
+				<input type="text" name="name" placeholder="Digite seu nome" required>
+				<input type="email" name="email" placeholder="Digite seu email" required>
+				<input type="text" name="title" placeholder="Qual seria o assunto?" required>
+				<textarea placeholder="Diga-me o que lhe aflinge..." name="text" required></textarea>
+				<input type="submit" onclick="checkForm()" value="Enviar">
+			</form>
+		</div>
+	</section>
+	<footer>
+		<div id="separator_bottom"></div>
+		<div id="social_left">
+			<a href="#"><img src="img/facebook.jpg" class="icon"></a>
+			<a href="#"><img src="img/twitter.jpg" class="icon"></a>
+			<a href="#"><img src="img/youtube.jpg" class="icon"></a>
+		</div>
+		<p>Bruno Monteiro</p>
+		<p>Copywright Myself - 2015</p>
+		<div id="social_right">
+			<a href="#"><img src="img/reddit.jpg" class="icon"></a>
+			<a href="#"><img src="img/tumblr.jpg" class="icon"></a>
+			<a href="#"><img src="img/skype.jpg" class="icon"></a>
+		</div>
+	</footer>
+</body>
+</html>

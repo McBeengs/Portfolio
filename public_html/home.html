@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Portfólio - Home</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+	<script src="script/jquery-1.11.3.js"></script>
+</head>
+<body>
+	<section id="top">
+		<header>
+			<div id="cursor"></div>
+			<h1 id="name"></h1>
+			<h2 id="slogan"></h2>
+			<nav>
+				<ul>
+					<li><a href="home.html" id="first"></a></li>
+					<li><a href="projetos.html" id="second"></a></li>
+					<li><a href="contato.html" id="third"></a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="separator"></div>
+	</section>	
+	<script src="script/nav_animation.js"></script>
+	<section id="slider">
+		<div id="slider-container">
+			<div id="slide-film">
+				<img src="img/first.png" class="slide" placeholder="img nº1">
+				<img src="img/first.png" class="slide" placeholder="img nº2">
+				<img src="img/first.png" class="slide" placeholder="img nº3">
+				<img src="img/first.png" class="slide" placeholder="img nº4">
+			</div>
+		</div>
+		<div id="left-arrow" onclick="before()">
+			<div class="arrow_stick" id="stick1"></div>
+			<div class="arrow_stick" id="stick2"></div>
+		</div>
+		<div id="right-arrow" onclick="next()">
+			<div class="arrow_stick" id="stick3"></div>
+			<div class="arrow_stick" id="stick4"></div>
+		</div>
+	</section>
+	<script src="script/slider.js"></script>
+	<section id="content">
+		<div id="presentation">
+			<img src="img/placeholder.jpg">
+			<h1>Olá, sou Bruno e gosto de <br>fazer programas</h1>
+		</div>
+
+		<h2>Quem sou eu afinal?</h2>
+		<img src="img/placeholder2.png" id="aside">
+		<div id="about_me">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+		<h2>Ok, mas quais as minhas qualificações?</h2>
+		<div id="languages">
+			<div id="Java" class="language" onclick="javaClick()"><img src="img/java.png" id="jimg">
+				<div class="bg" id="l1"></div>
+			</div>
+			<div id="HTML5" class="language" onclick="htmlClick()"><img src="img/html.png" id="htmlimg">
+				<div class="bg" id="l2"></div>
+			</div>
+			<div id="CSS3" class="language" onclick="cssClick()"><img src="img/css.png" id="cssimg">
+				<div class="bg" id="l3"></div>
+			</div>
+			<div id="Javascript" class="language" onclick="jsClick()"><img src="img/js.png" id="jsimg">
+				<div class="bg" id="l4"></div>
+			</div>
+			<div id="displayer">
+				<p id="lang_text">Selecione uma linguagem...</p>
+			</div>
+		</div>
+		<script src="script/languages_animation.js"></script>
+		<div id="future">
+			<h2>Projeções para o futuro</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<img src="img/placeholder3.png">
+		</div>
+	</section>
+	<footer>
+		<div id="separator_bottom"></div>
+		<div id="social_left">
+			<a href="#"><img src="img/facebook.jpg" class="icon"></a>
+			<a href="#"><img src="img/twitter.jpg" class="icon"></a>
+			<a href="#"><img src="img/youtube.jpg" class="icon"></a>
+		</div>
+		<p>Bruno Monteiro</p>
+		<p>Copywright Myself - 2015</p>
+		<div id="social_right">
+			<a href="#"><img src="img/reddit.jpg" class="icon"></a>
+			<a href="#"><img src="img/tumblr.jpg" class="icon"></a>
+			<a href="#"><img src="img/skype.jpg" class="icon"></a>
+		</div>
+	</footer>
+</body>
+</html>
